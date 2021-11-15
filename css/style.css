@@ -64,9 +64,9 @@ a:hover {
 ul li {
   list-style: none;
 }
-img {
+/* img {
   vertical-align: top;
-}
+} */
 
 h1,
 h2,
@@ -79,30 +79,59 @@ h6 {
 }
 /*--------------------*/
 * {
-  outline: 1px solid rebeccapurple;
+  /* outline: 1px solid rebeccapurple; */
 }
 /* technical classes ===================*/
 ._main-container {
+  margin: auto;
+  width: 1160px;
+  font-family: "Roboto", sans-serif;
+  /* border: 5px solid #ffff00; */
+  /* padding: 10px; */
 }
 ._top-container {
+  background-color: #eeeeee;
 }
 ._flex {
   display: flex;
 }
 /* header  =============================== */
 .header {
+  width: 1160px;
+  height: 70px;
+  margin-top: 70px;
+  justify-content: space-between;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
 }
 .header-logo {
 }
 .header-nav {
+  width: 440px;
+  height: 45px;
+  margin-top: 25px;
 }
 .header-nav-list {
+  justify-content: space-around;
 }
 .header-nav-list_li {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
 }
 .header-cart {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  /* width: 115px; */
 }
 .header-cart-logo {
+  margin-right: 25px;
 }
 /*hero =========================  */
 .hero {
