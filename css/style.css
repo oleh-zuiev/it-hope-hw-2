@@ -78,22 +78,40 @@ h6 {
   font-weight: 400;
 }
 /*--------------------*/
-* {
-  /* outline: 1px solid rebeccapurple; */
+body {
+  font-family: "Roboto", sans-serif;
 }
+/* * {
+  outline: 1px solid rebeccapurple;
+} */
 /* technical classes ===================*/
 ._main-container {
   margin: auto;
   width: 1160px;
   font-family: "Roboto", sans-serif;
+  padding-top: 50px;
   /* border: 5px solid #ffff00; */
   /* padding: 10px; */
 }
 ._top-container {
-  background-color: #eeeeee;
+  /* background-color: #eeeeee; */
 }
 ._flex {
   display: flex;
+}
+._rel-container {
+  position: relative;
+}
+._absolut-bg {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 550px;
+  background-color: #eeeeee;
+}
+img {
+  max-width: 100%;
+  height: auto;
 }
 /* header  =============================== */
 .header {
@@ -135,26 +153,98 @@ h6 {
 }
 /*hero =========================  */
 .hero {
+  justify-content: space-between;
+  align-items: center;
 }
 .hero-texts {
+  /* font-family: Roboto; */
+  max-width: 380px;
+  font-family: "Roboto", sans-serif;
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 500;
+  color: #000000;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .hero-texts_info {
+  max-width: 360px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #283136;
+  margin-top: 20px;
 }
 .hero-texts_button {
+  width: 240px;
+  height: 50px;
+  background-color: #fb565a;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-top: 20px;
 }
 .hero-banner {
+  width: 611px;
+  height: 366px;
 }
 /* info-trinity =============================== */
 .info-trinity {
+  justify-content: space-between;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .info-trinity-part {
+  max-width: 300px;
 }
 .info-trinity-part_img {
 }
 .info-trinity-part_texts {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #000000;
+  margin-top: 28px;
+  margin-bottom: 28px;
 }
 .info-trinity-part_texts_info {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #283136;
 }
 .info-trinity-part_texts_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  width: 160px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-top: 28px;
+}
+.red-btn {
+  background-color: #fb565a;
+}
+.green-btn {
+  background-color: #00ca74;
+}
+.yellow-btn {
+  background-color: #efc84a;
+}
+/* ================================== */
+.horizontal-line {
+  height: 2px;
+  max-width: 1160px;
+  background-color: #f6f6f6;
 }
 /* this is test comment to understand if I can commit remotely */
