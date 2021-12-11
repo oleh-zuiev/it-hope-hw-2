@@ -81,9 +81,7 @@ h6 {
 body {
   font-family: "Roboto", sans-serif;
 }
-/* * {
-  outline: 1px solid rebeccapurple;
-} */
+
 /* technical classes ===================*/
 ._main-container {
   margin: auto;
@@ -109,9 +107,18 @@ body {
   height: 550px;
   background-color: #eeeeee;
 }
+._test {
+  outline: 1px solid rebeccapurple;
+}
 img {
   max-width: 100%;
   height: auto;
+}
+.sm-text {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #283136;
 }
 /* header  =============================== */
 .header {
@@ -247,7 +254,110 @@ img {
   max-width: 1160px;
   background-color: #f6f6f6;
 }
-/* this is test comment to understand if I can commit remotely */
+/* ==============Krasnodar-section============== */
+.krsndr-main-contaner {
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 75px;
+}
+/* -----krsndr-big-container------ */
+.krsndr-bg-container {
+  padding-top: 40px;
+  max-width: 650px;
+}
+.krsndr-title {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 500;
+  color: #000000;
+}
+.krsndr-info {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #283136;
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+.krsndr-orders {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.krsndr-orders-li {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #283136;
+}
+.krsndr-red-line {
+  display: inline-block;
+  width: 25px;
+  height: 2px;
+  background-color: #fb5d61;
+  margin-right: 10px;
+}
+.red-line-flex {
+  align-items: center;
+}
+
+.second-redline-li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* ------------------------------- */
+.krsndr-sm-container {
+  max-width: 360px;
+}
+.krndr-img-container {
+}
+.krsndr-numbers-container {
+}
+.krsndr-2004-title {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+  margin-top: 35px;
+  margin-bottom: 50px;
+}
+.krsndr-persentage-container {
+}
+.krsndr-persentage-numbers {
+  font-size: 45px;
+  line-height: 10px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.krsndr-pers-number {
+  position: relative;
+  margin-right: 33px;
+}
+.persent {
+  font-size: 22px;
+  position: absolute;
+  top: -7px;
+  right: -19px;
+}
+.krsndr-persentage-texts {
+}
+/* ==================section-clients============================ */
+.clients {
+  max-width: 1160px;
+  padding-top: 45px;
+  padding-bottom: 50px;
+  justify-content: space-between;
+}
+.clients-item {
+  width: 199px;
+  height: 68px;
+  opacity: 0.2;
+}
+
 /* ===============google-maps without api */
 /* .map-responsive {
   overflow: hidden;
